@@ -1,0 +1,394 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+    font-size:10px;
+}
+
+body{
+    font-family:'lato' , sans-serif ;
+    font-size:1.6rem;
+    font-weight: 400;
+    line-height:1.5;
+    background-color:#fff;
+}
+
+section{
+
+    padding-top:10rem;
+    padding-bottom:10rem;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:700;
+    font-family: montserrat;
+}
+
+.btn{
+
+    margin-top: 2rem;
+    font-size:2rem;
+    padding:2.8rem 1.6rem;
+    font-weight: 400;
+    display:inline-block;
+    background-color: transparent;
+    border:2px solid transparent;
+    color: #fff;
+    border-radius: .4rem;
+    cursor:pointer;
+    transition:.5;
+}
+
+.btn-outline{
+
+    color:#fff;
+    border-color:#fff;
+    background-color: transparent;
+    padding:2.4rem 1.6rem;
+
+
+}
+
+
+.btn-outline:hover{
+
+    color:#212529;
+    background-color:#fff;
+}
+
+.btn-primary{
+
+    background-color:#18bC9C;
+    border-color: #18bc9c;
+    padding:1.2rem 1rem;
+    
+
+}
+.btn-primary:hover{
+
+    background-color:#128f76;
+    border-color:#128f76;
+
+
+}
+.img-fluid{
+
+    max-width: 100%;
+    height:auto;
+}
+
+a {
+    text-decoration:none;
+
+}
+
+ul{
+    list-style:none;
+}
+
+
+.clearfix{
+
+    padding:1.5rem;
+
+    float:left;
+}
+
+
+.clearfix::after{
+
+    content:"";
+    display:block;
+    clear: both;
+}
+
+.container{
+    width: 1140px;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:.5rem;
+    padding-right:.5rem;
+    
+
+}
+
+
+nav{
+    width:100%;
+    font-family:Montserrat;
+    background-color:#2C3E50;
+    color:#fff;
+    padding-top:2.4rem;
+    padding-bottom:2.4rem;
+    position:fixed;
+
+}
+
+.logo{
+    padding-left:4rem;
+}
+
+
+.text-uppercase{
+    text-transform:uppercase;
+}
+
+
+#logo-box{
+    float:left;
+    padding-top: 2.25rem;
+}
+
+
+#logo-box .logo{
+    color:#fff;
+    font-weight: 700;
+    font-size:3.2rem;
+
+}
+
+#nav-links{
+    float:right;
+}
+
+#nav-links .nav-item{
+
+    float:left;
+    margin:0.4rem;
+
+}
+
+#nav-links .nav-item{
+    color:#fff;
+    font-size:1.6rem;
+    font-weight: 700;
+    display: block;
+    padding:1.6rem ;
+    transition: color .3s;
+}
+
+#nav-links .nav-item:hover{
+
+    color:#18bc9c;
+}
+
+header{
+
+    background-color:#18bC9C;
+    padding-top:calc(112px + 6rem) ;
+    padding-bottom: 112px;
+    text-align: center;
+}
+
+header h1{
+    color:#fff;
+    font-size:7.6rem;
+}
+
+header h2{
+    color:#fff;
+    font-size:2.8rem;
+    font-family:'lato';
+    font-weight:300;
+
+}
+
+
+#portfolio{
+    padding-top:10rem;
+    padding-bottom:10rem;
+    text-align:center;
+
+}
+
+#portfolio-images{
+
+    padding:5rem;
+}
+
+section h1 {
+    font-size:80rem;
+    font-family: Impact; 
+
+}
+
+.star{
+    padding-top:5rem;
+}
+
+.col{
+    float:left;
+    width:33.333%;
+    padding:10px;
+    
+    
+   
+}
+
+.col:hover{
+    transform:scale(1.2);
+  
+}
+
+.portfolio-item{
+
+    position: relative;
+
+
+}
+
+.portfolio-item img{
+
+    display:block;
+}
+
+.img-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    height:100%;
+    width:100%;
+    background-color: #18bC9C;
+    opacity: 0;
+    transition:opacity .5s ease;
+}
+
+.img-overlay .icon{
+
+    color: #fff;
+    font-size:2rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.portfolio-item:hover {
+
+    opacity:1;
+}
+
+
+#about{
+
+     
+     background-color: #18BC9C;
+     color:#fff;
+     
+
+}
+
+.text-uppercase{
+
+     
+    font-size: 4.8rem;
+}
+
+#about h2{
+
+   font-size:4.8rem;
+}
+
+#about-text{
+
+    text-align:left;
+
+}
+
+#about-text .left{
+
+    float:left;
+    width: 50%;
+    padding-right:2rem;
+    padding-left:23rem;
+
+
+}
+
+#about-text .right{
+
+    float:right;
+    width:50%;
+    padding-left:2rem;
+    padding-right:23rem;
+}
+
+#about-text .text{
+    font-size:2rem;
+
+}
+
+
+#contact h2{
+
+    font-size:4.8rem;
+    color:#2C3E50;
+
+
+}
+
+#contact-form{
+
+    width:70%;
+    margin: 0 auto;
+
+}
+
+.form-group{
+
+    border-bottom: 3px solid #e9ecef;
+    padding-bottom: 1rem;
+    margin-bottom:4rem;
+
+
+}
+
+.form-group input {
+
+    border:none;
+    width:100%;
+    display:block;
+    font-size:2.4rem;
+
+}
+
+
+
+.form-group input:focus{
+
+    outline:0;
+
+}
+
+footer{
+
+    height:130px;
+    padding-top:4rem;
+    padding-bottom:4rem;
+    background-color:#2C3E50;
+    color:#fff;
+    text-align:center;;
+
+}
+
+
+#foot{
+    
+    float:left;
+    width:50%;
+    font-size:2rem;
+
+}
+
+#foot p{
+
+    font-size:2rem;
+}
